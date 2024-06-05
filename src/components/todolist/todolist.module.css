@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 610px;
+    box-shadow: 5px 5px 5px darkgrey;;
+    border: 2px solid rgba(180, 180, 180, 0.5);
+    h3 {
+        border-bottom: 2px solid rgba(180, 180, 180, 0.5);
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    margin: 0 auto;
+}
+
+.footerTodolist {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top:2px solid rgba(180, 180, 180, 0.5);
+}
+
+.task {
+    border-top: 2px solid rgba(180, 180, 180, 0.5);
+}
+.addItem {
+    padding-left: 10px;
+    box-sizing: border-box;
+}
